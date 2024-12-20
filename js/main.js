@@ -79,7 +79,7 @@ $(function () {
 
     if ($('#pagepiling').length > 0) {
         $('#pagepiling').pagepiling({
-            anchors: ['about', 'purpose', 'reviews', 'test', 'contact'],
+            anchors: ['about', 'reviews', 'test', 'contact'],
             menu: '#nav-menu',
             direction: 'vertical',
             easing: 'swing',

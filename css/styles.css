@@ -1260,7 +1260,6 @@ body.pp-viewing-about .s-sidebar>li>a svg path {
 @media screen and (max-width:1260px) {
 
     .pp-viewing-about header .nav>li:last-of-type>a,
-    .pp-viewing-purpose header .nav>li:nth-child(4)>a,
     .pp-viewing-reviews header .nav>li:nth-child(3)>a,
     .pp-viewing-test header .nav>li:nth-child(2)>a,
     .pp-viewing-contact header .nav>li:first-of-type>a {
