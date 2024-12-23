@@ -1081,6 +1081,8 @@ body.pp-viewing-about .s-sidebar>li>a svg path {
 
 .pp-tableCell {
     display: block;
+    overflow-y: auto;
+    padding-bottom: 20px;
 }
 
 .audiojs {
@@ -1221,37 +1223,10 @@ body.pp-viewing-about .s-sidebar>li>a svg path {
 /*    -webkit-text-fill-color: transparent;*/
 /*}*/
 
-.pp-viewing-about header .nav>li:last-of-type>a {
-    background: linear-gradient(127.79deg, #1C36C9 9.52%, #518EFE 79.32%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.pp-viewing-purpose header .nav>li:nth-child(4)>a {
-    background: linear-gradient(127.79deg, #1C36C9 9.52%, #518EFE 79.32%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.pp-viewing-reviews header .nav>li:nth-child(3)>a {
-    background: linear-gradient(127.79deg, #1C36C9 9.52%, #518EFE 79.32%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.pp-viewing-test header .nav>li:nth-child(2)>a {
-    background: linear-gradient(127.79deg, #1C36C9 9.52%, #518EFE 79.32%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* .pp-viewing-landing header .nav>li:nth-child(2)>a {
-    background: linear-gradient(127.79deg, #1C36C9 9.52%, #518EFE 79.32%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
-.pp-viewing-contact header .nav>li:first-of-type>a {
+.pp-viewing-about header .nav>li:last-of-type>a,
+.pp-viewing-reviews header .nav>li:nth-child(4)>a,
+.pp-viewing-test header .nav>li:nth-child(3)>a,
+.pp-viewing-contact header .nav>li:first-of-type>a  {
     background: linear-gradient(127.79deg, #1C36C9 9.52%, #518EFE 79.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1260,8 +1235,8 @@ body.pp-viewing-about .s-sidebar>li>a svg path {
 @media screen and (max-width:1260px) {
 
     .pp-viewing-about header .nav>li:last-of-type>a,
-    .pp-viewing-reviews header .nav>li:nth-child(3)>a,
-    .pp-viewing-test header .nav>li:nth-child(2)>a,
+    .pp-viewing-reviews header .nav>li:nth-child(4)>a,
+    .pp-viewing-test header .nav>li:nth-child(3)>a,
     .pp-viewing-contact header .nav>li:first-of-type>a {
         background: linear-gradient(127.79deg, #1C36C9 9.52%, #002870 79.32%);
         -webkit-background-clip: text;
@@ -6961,7 +6936,7 @@ header .nav>li a.active {
     }
 
     .landing-page header .mob-wrapper {
-        top: -30px;
+        top: -15px;
     }
 
     .landing-page.packet .main-block {

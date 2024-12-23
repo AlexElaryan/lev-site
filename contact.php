@@ -12,7 +12,7 @@
         $text .= "<p>Percents: ".$_POST["percents"]."</p>";
     }
 
-    $to = "levkazaryancolors@gmail.com";
+    $to = "support@levkazaryan.com";
     $subject = "Test Result";
     $message = "
                 <html>
